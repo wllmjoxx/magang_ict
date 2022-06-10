@@ -36,7 +36,7 @@
                         <td><?= $row["address"]; ?></td>
                         <td><?= $row["phone"]; ?></td>
                         <td>
-                            <a href="edituser?id=<?= $row["id"]; ?>" type="button" class="btn btn-dark">Edit data</a>
+                            <a href="edituser?id=<?= $row["id"]; ?>" type="button" class="btn btn-dark">Edit</a>
     
                             <a href="<?= base_url('user/hapus') ?>" type="button" class="btn btn-danger">Hapus</a>
                             <!-- <a href="<?= base_url('user/hapus' . $id) ?>" type="button" class="btn btn-danger">Hapus</a> -->

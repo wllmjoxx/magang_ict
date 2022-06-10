@@ -49,25 +49,25 @@
             <thead>
                 <tr>
                     <th>Fullname</th>
-                    <th><input type="text" class="form-control" name="name"></th>
+                    <th><input type="text" class="form-control" name="name" value="<?= $name;?>"required></th>
                 </tr>
             </thead>
             <thead>
                 <tr>
                     <th>Email</th>
-                    <th><input type="email" class="form-control" name="email"></th>
+                    <th><input type="email" class="form-control" name="email" value="<?= $email;?>"required></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Adress</td>
-                    <td><input type="address" class="form-control" name="address"></td>
+                    <td><input type="address" class="form-control" name="address" value="<?= $address;?>"required></td>
                 </tr>
             </tbody>
             <tbody>
                 <tr>
                     <td>Phone</td>
-                    <td><input type="number" class="form-control" name="phone"></td>
+                    <td><input type="number" class="form-control" name="phone" value="<?= $phone;?>"required></td>  
                 </tr>
                 <tr>
                     <td>Password</td>
