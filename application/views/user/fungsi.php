@@ -7,4 +7,4 @@ function bersihkan_input($data)
 
     return $data;
 }
-?>//sajkfnjdsjfbkdsnfknsdkf
+?>
