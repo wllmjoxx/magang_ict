@@ -43,8 +43,7 @@
             </div>
     <?php
         }
-    }
-    else {
+    } else {
         if (isset($_GET['id'])) {
             $id = bersihkan_input($_GET['id']);
             $strSQL = "SELECT * FROM user WHERE  id='$id'";
@@ -56,6 +55,7 @@
                     $email = $row['email'];
                     $address = $row['address'];
                     $phone = $row['phone'];
+                    //dsadas
                 }
             }
         }
@@ -67,33 +67,33 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th><input type="text" class="form-control" name="id" value="<?= $id;?>" readonly></th>
+                    <th><input type="text" class="form-control" name="id" value="<?= $id; ?>" readonly></th>
                 </tr>
                 <tr>
                     <th>Fullname</th>
-                    <th><input type="text" class="form-control" name="name" value="<?= $name;?>" required></th>
+                    <th><input type="text" class="form-control" name="name" value="<?= $name; ?>" required></th>
                 </tr>
             </thead>
             <thead>
                 <tr>
                     <th>Email</th>
-                    <th><input type="email" class="form-control" name="email" value="<?= $email;?>"required></th>
+                    <th><input type="email" class="form-control" name="email" value="<?= $email; ?>" required></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Adress</td>
-                    <td><input type="address" class="form-control" name="address" value="<?= $address;?>"required></td>
+                    <td><input type="address" class="form-control" name="address" value="<?= $address; ?>" required></td>
                 </tr>
             </tbody>
             <tbody>
                 <tr>
                     <td>Phone</td>
-                    <td><input type="number" class="form-control" name="phone" value="<?= $phone;?>"required></td>
+                    <td><input type="number" class="form-control" name="phone" value="<?= $phone; ?>" required></td>
                 </tr>
                 <tr>
                     <td>Password</td>
-                    <td><input type="password" class="form-control" name="password" ></td>
+                    <td><input type="password" class="form-control" name="password"></td>
                 </tr>
             </tbody>
             <tbody>
