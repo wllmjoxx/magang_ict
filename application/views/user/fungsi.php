@@ -6,4 +6,4 @@ function bersihkan_input($data) {
 
     return $data;
 }
-?>
+?>//wkwkwkkwkwkwkwwkkw
